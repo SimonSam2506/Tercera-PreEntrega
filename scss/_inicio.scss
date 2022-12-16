@@ -1,0 +1,270 @@
+
+.cabecera {
+    background-image: linear-gradient(rgb(31, 183, 31) 60%, aqua);
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .cabecera h1 {
+        padding: 3rem;
+        font-size: 6rem;
+        margin-bottom: 8rem;
+        transform: translateY(3rem);
+    }
+    
+    .navegador {
+    background-image: linear-gradient(aqua, rgb(31, 183, 31) );
+    grid-area: nav;
+    height: 100%;
+    }
+    
+    .navegador ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    
+    
+    
+    
+    .navegador ul li a {
+        background-color: violet;
+        text-decoration: none;
+        color: white;
+        border: solid 0.4rem black;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+    
+    .principal {
+    background-image: linear-gradient(rgb(31, 183, 31),aqua);
+    grid-area: main;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    
+    .principal h2 {
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 3.5rem;
+        border: solid 0.3rem black;
+        border-radius: 5rem;
+        padding: 1.5rem;
+        color: aliceblue;
+        width: 35rem;
+        transform: translateX(12rem);
+        
+    }
+    
+    .principal .section1 {
+        margin-top: 7rem;
+        font-size: 2.5rem;
+        
+    }
+    
+    
+    .principal .section2 {
+        margin-top: 15rem;
+        font-size: 2.5rem;
+    }
+    
+    .principal .section3 {
+        margin-top: 15rem;
+        font-size: 2.5rem;
+    }
+    
+    .section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    width: auto;
+    }
+    
+    .section1 div {
+        background-color: green;
+        padding: 1rem;
+        border: solid 0.4rem;
+        border-radius: 10rem;
+    }
+    
+    .section1 div p {
+        border: solid 0.4rem black;
+        border-radius: 5rem;
+        padding: 2rem;
+        margin: 1rem;
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        color: aliceblue;
+    }
+    
+    .section1 div img {
+        border: solid 0.4rem;
+        border-radius: 10rem;
+    }
+    
+    .section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    }
+    
+    .section2 div {
+        border: solid 0.4rem;
+        border-radius: 10rem;
+        padding: 1rem;
+        background-color: green;
+    }
+    
+    .section2 div p {
+        border: solid 0.4rem black;
+        border-radius: 5rem;
+        padding: 2rem;
+        margin: 1.5rem;
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        color: aliceblue;
+    }
+    
+    
+    
+    .section2 div img {
+        border: solid 0.4rem;
+        border-radius: 10rem;
+    }
+    
+    
+    .section3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin-left: 3rem;
+        }
+    
+    .section3 div {
+        border: solid 0.4rem;
+        border-radius: 10rem;
+        padding: 1rem;
+        background-color: green;
+        }
+    
+    .section3 div p {
+            background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+            border: solid 0.4rem black;
+            border-radius: 5rem;
+            padding: 2rem;
+            margin: 1.5rem;
+            color: aliceblue;
+        }
+    
+    .section3 div img {
+            border: solid 0.4rem;
+            border-radius: 10rem;
+        }
+    
+        .section4 p {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10rem;
+        }
+    
+    .section4 p a {
+        background-image: linear-gradient(rgb(254, 241, 0), rgb(170, 31, 183) );
+        text-decoration: none;
+        border: solid 0.4rem black;
+        border-radius: 5rem;
+        padding: 1.5rem;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 80%;
+    }
+    
+    
+    
+    .publicidad {
+    background-image: linear-gradient( rgb(31, 183, 31), aqua);
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    }
+    
+    .publicidad h2 {
+        font-size: 3rem;
+        margin-top: 5rem;
+        border: solid 0.4rem black;
+        border-radius: 1rem;
+        padding: 2rem;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        width: auto;
+    }
+    
+    .publicidad div {
+        border: solid 0.4rem;
+        border-radius: 3rem;
+        padding: 2rem;
+        margin: 5rem 5rem;
+        background-image: linear-gradient(rgb(203, 13, 13), rgb(239, 56, 175));
+    }
+    
+    .publicidad div p {
+        margin: 2rem;
+        border-radius: 1rem;
+        padding: 2rem;
+        font-size: 3rem;
+    }
+    
+    .publicidad div iframe {
+        border: solid 0.3rem;
+        border-radius: 3rem;
+    }
+        
+    
+    .pie {
+    background-image: linear-gradient(aqua, rgb(31, 183, 31) 70%);
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    .pie div {
+        display: flex;
+        
+    }
+    
+    .pie div p {
+        background-image: linear-gradient(deeppink, black); 
+        font-size: 2.5rem;
+        border: solid 0.4rem;
+        border-radius: 1rem;
+        padding: 3rem;
+        
+    }
+    
+    .pie a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+    }
