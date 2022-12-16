@@ -1,0 +1,339 @@
+@media screen and (max-width:1050px) 
+
+{ 
+
+    .grid-container {
+        width: 100%;
+        margin: 0;
+        border: none;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 35rem 7rem auto auto 15rem;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "main main"
+        "aside aside"
+        "footer footer";
+    }
+
+    .logotipo {
+        transform: translateY(6.2rem);
+    }
+
+    .cabecera h1 {
+        transform: translateX(8rem);
+        margin-top: 5rem;
+    }
+
+    .principal h2 {
+        margin-top: 6rem;
+        transform: translateX(24rem);
+    }
+    
+    .publicidad h2 {
+        margin-bottom: 10rem;
+    }
+    
+    .principal-div-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10rem;
+    }
+
+    .principal-div-contacto h2 {
+      transform: translateX(-2rem);
+      margin-bottom: 20rem;
+    }
+
+    
+
+    .publicidad {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+    }
+    
+    .publicidad h2 {
+        margin-top: 20rem;
+    }
+    
+    .publicidad div {
+        height: auto;
+        width: 60rem;
+    }
+    
+    .publicidad div iframe {
+    height: auto;
+    width: 100%;
+    }
+    
+    .publicidad div p {
+        font-size: 3rem;
+    }
+
+    .pie {
+        padding: 4rem;
+        background-image: linear-gradient(rgb(31, 183, 31), aqua);
+    }
+
+
+    
+
+    .principal-div-contacto {
+        transform: translateX(2rem);
+    }
+   
+    .publicidad-contacto {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+
+    }
+    
+    .publicidad-contacto h2 {
+       margin-bottom: 10rem;
+    }
+    
+    .publicidad-contacto div {
+        height: auto;
+        width: 60rem;
+    }
+    
+    .publicidad-contacto div iframe {
+    height: auto;
+    width: 100%;
+    border: none;
+    }
+    
+    .publicidad-contacto div p {
+        font-size: 3rem;
+    }
+    
+    
+    .pie-contacto {
+        background-image: linear-gradient(rgb(31, 183, 31), aqua);
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+
+
+        .pie-contacto div {
+            display: flex;
+            
+        }
+        
+        .pie-contacto div p {
+            background-image: linear-gradient(deeppink, black); 
+            font-size: 2.5rem;
+            border: solid 0.4rem;
+            border-radius: 1rem;
+            padding: 3rem;
+            
+        }
+        
+        .pie-contacto a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+        }
+        
+    
+    
+
+
+
+
+
+
+    .principal-servicios p {
+       margin-top: 10rem;
+       margin-right: 3rem;
+    }
+   
+    .publicidad-servicios {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+
+    }
+    
+    .publicidad-servicios h2 {
+       margin-bottom: 10rem;
+    }
+    
+    .publicidad-servicios div {
+        height: auto;
+        width: 60rem;
+    }
+    
+    .publicidad-servicios div iframe {
+    height: auto;
+    width: 100%;
+    border: none;
+    }
+    
+    .publicidad-servicios div p {
+        font-size: 3rem;
+    }
+    
+    
+    .pie-servicios {
+        background-image: linear-gradient(rgb(31, 183, 31), aqua);
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+
+
+        .pie-servicios div {
+            display: flex;
+            
+        }
+        
+        .pie-servicios div p {
+            background-image: linear-gradient(deeppink, black); 
+            font-size: 2.5rem;
+            border: solid 0.4rem;
+            border-radius: 1rem;
+            padding: 3rem;
+            
+        }
+        
+        .pie-servicios a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+        }
+
+
+
+
+        
+        .principal-recomendaciones h2 {
+         margin-top: 15rem;
+         margin-bottom: 15rem;
+         margin-right: 3rem;
+        }
+        
+        
+        .principal-recomendaciones p {
+            margin-top: 10rem;
+            margin-right: 3rem;
+         }
+        
+         .publicidad-recomendaciones {
+             background-image: linear-gradient(aqua, rgb(31, 183, 31));
+     
+         }
+         
+         .publicidad-recomendaciones h2 {
+            margin-bottom: 10rem;
+         }
+         
+         .publicidad-recomendaciones div {
+             height: auto;
+             width: 60rem;
+         }
+         
+         .publicidad-recomendaciones div iframe {
+         height: auto;
+         width: 100%;
+         border: none;
+         }
+         
+         .publicidad-recomendaciones div p {
+             font-size: 3rem;
+         }
+         
+         
+         .pie-recomendaciones {
+             background-image: linear-gradient(rgb(31, 183, 31), aqua);
+             grid-area: footer;
+             display: flex;
+             flex-direction: row;
+             align-items: center;
+             justify-content: space-evenly;
+             }
+     
+     
+             .pie-recomendaciones div {
+                 display: flex;
+                 
+             }
+             
+             .pie-recomendaciones div p {
+                 background-image: linear-gradient(deeppink, black); 
+                 font-size: 2.5rem;
+                 border: solid 0.4rem;
+                 border-radius: 1rem;
+                 padding: 3rem;
+                 
+             }
+             
+             .pie-recomendaciones a {
+                 text-decoration: none;
+                 color: white;
+                 display: flex;
+             }
+        
+    
+    
+   
+   
+    .publicidad-conocenos {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+
+    }
+    
+    .publicidad-conocenos h2 {
+       margin-bottom: 10rem;
+    }
+    
+    .publicidad-conocenos div {
+        height: auto;
+        width: 60rem;
+    }
+    
+    .publicidad-conocenos div iframe {
+    height: auto;
+    width: 100%;
+    border: none;
+    }
+    
+    .publicidad-conocenos div p {
+        font-size: 3rem;
+    }
+    
+    
+    .pie-conocenos {
+        background-image: linear-gradient(rgb(31, 183, 31), aqua);
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+
+
+        .pie-conocenos div {
+            display: flex;
+            
+        }
+        
+        .pie-conocenos div p {
+            background-image: linear-gradient(deeppink, black); 
+            font-size: 2.5rem;
+            border: solid 0.4rem;
+            border-radius: 1rem;
+            padding: 3rem;
+            
+        }
+        
+        .pie-conocenos a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+        }
+
+    }
