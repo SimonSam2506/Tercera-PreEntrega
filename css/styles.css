@@ -749,14 +749,7 @@ img {
   height: 22rem;
 }
 
-/* Inicio Contacto */
-/*Fin Contacto */
-/* Inicio Servicios */
-/* Fin Servicios */
-/* Inicio Recomendaciones */
-/* Fin Recomendaciones */
-/* Inicio Conocenos */
-/* Fin Conocenos */
+
 @media screen and (max-width: 1050px) {
   .grid-container {
     width: 100%;
