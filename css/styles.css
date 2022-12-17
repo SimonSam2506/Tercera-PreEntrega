@@ -734,7 +734,7 @@ img {
   display: flex;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 992px) {
   .grid-container {
     width: 100%;
     margin: 0;
